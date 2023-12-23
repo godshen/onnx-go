@@ -3,7 +3,7 @@ package gorgonnx
 import (
 	"errors"
 
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gorgonia.org/gorgonia"
 	nnops "gorgonia.org/gorgonia/ops/nn"
 	"gorgonia.org/tensor"
@@ -18,9 +18,13 @@ func newConv() operator {
 }
 
 // conv to be compatible with:
-//    https://github.com/onnx/onnx/blob/master/docs/Operators.md#Conv
+//
+//	https://github.com/onnx/onnx/blob/master/docs/Operators.md#Conv
+//
 // and
-//    https://godoc.org/gorgonia.org/gorgonia#Conv2d
+//
+//	https://godoc.org/gorgonia.org/gorgonia#Conv2d
+//
 // test with go test -run=TestONNX/Conv
 type conv struct {
 	autopad     string

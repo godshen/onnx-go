@@ -63,7 +63,7 @@ import (
 	"testing"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 )
 
 func TestNew{{ .TestName }}(t *testing.T) {
@@ -94,7 +94,7 @@ package onnxtest
 
 import (
     "gorgonia.org/tensor"
-  "github.com/owulveryck/onnx-go/backend/testbackend"
+  "github.com/godshen/onnx-go/backend/testbackend"
 )
 
 func init() {

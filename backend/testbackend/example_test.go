@@ -3,10 +3,10 @@ package testbackend_test
 import (
 	"testing"
 
-	"github.com/owulveryck/onnx-go/backend"
-	"github.com/owulveryck/onnx-go/backend/testbackend"
+	"github.com/godshen/onnx-go/backend"
+	"github.com/godshen/onnx-go/backend/testbackend"
 	// Register the tests from onnx
-	// _ "github.com/owulveryck/onnx-go/backend/testbackend/onnx"
+	// _ "github.com/godshen/onnx-go/backend/testbackend/onnx"
 )
 
 func Example() {

@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/gogo/protobuf/proto"
 	"github.com/kr/pretty"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package onnx
 import (
 	"testing"
 
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/stretchr/testify/assert"
 )
 

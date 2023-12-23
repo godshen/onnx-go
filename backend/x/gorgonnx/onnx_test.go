@@ -6,9 +6,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/owulveryck/onnx-go/backend/testbackend"
-	_ "github.com/owulveryck/onnx-go/backend/testbackend/onnx"
-	"github.com/owulveryck/onnx-go/backend/testbackend/testreport"
+	"github.com/godshen/onnx-go/backend/testbackend"
+	_ "github.com/godshen/onnx-go/backend/testbackend/onnx"
+	"github.com/godshen/onnx-go/backend/testbackend/testreport"
 )
 
 type report struct {

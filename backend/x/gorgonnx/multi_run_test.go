@@ -3,8 +3,8 @@ package gorgonnx_test
 import (
 	"testing"
 
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend/x/gorgonnx"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend/x/gorgonnx"
 	"gorgonia.org/tensor"
 )
 

@@ -3,11 +3,10 @@ package gorgonnx
 import (
 	"testing"
 
-	onnx "github.com/owulveryck/onnx-go"
+	onnx "github.com/godshen/onnx-go"
 )
 
-//https://stackoverflow.com/questions/37674306/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-t
-//
+// https://stackoverflow.com/questions/37674306/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-t
 func TestMaxpool_SAME(t *testing.T) {
 	maxpoolOp := &maxpool{}
 	operation := onnx.Operation{

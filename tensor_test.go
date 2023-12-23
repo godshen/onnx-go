@@ -3,8 +3,8 @@ package onnx
 import (
 	"testing"
 
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/gogo/protobuf/proto"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
 	"gorgonia.org/tensor"
 )
 

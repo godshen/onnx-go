@@ -1,6 +1,6 @@
 package backend
 
-import "github.com/owulveryck/onnx-go"
+import "github.com/godshen/onnx-go"
 
 // ComputationBackend is a backend that can run the graph
 type ComputationBackend interface {

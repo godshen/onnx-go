@@ -3,7 +3,7 @@ package gorgonnx
 import (
 	"errors"
 
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gorgonia.org/gorgonia"
 	"gorgonia.org/tensor"
 )
@@ -17,9 +17,13 @@ func newMaxpool() operator {
 }
 
 // maxpool to be compatible with:
-//    https://github.com/onnx/onnx/blob/master/docs/Operators.md#maxpool
+//
+//	https://github.com/onnx/onnx/blob/master/docs/Operators.md#maxpool
+//
 // and
-//    https://godoc.org/gorgonia.org/gorgonia#MaxPool2D
+//
+//	https://godoc.org/gorgonia.org/gorgonia#MaxPool2D
+//
 // test with go test -run=TestONNX/maxpool
 type maxpool struct {
 	padding     string

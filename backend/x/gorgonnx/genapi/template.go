@@ -84,14 +84,14 @@ const testHeader = `package gorgonnx
 import (
 	"testing"
 
-	"github.com/owulveryck/onnx-go/backend/testbackend"
-	_ "github.com/owulveryck/onnx-go/backend/testbackend/onnx"
+	"github.com/godshen/onnx-go/backend/testbackend"
+	_ "github.com/godshen/onnx-go/backend/testbackend/onnx"
 )`
 
 const opHeader = `package gorgonnx
 
 import (
 	"errors"
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gorgonia.org/gorgonia"
 )`

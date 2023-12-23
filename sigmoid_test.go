@@ -1,8 +1,8 @@
 package onnx_test
 
 import (
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/gogo/protobuf/proto"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/chewxy/hm"
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gorgonia.org/gorgonia"
 	"gorgonia.org/tensor"
 )

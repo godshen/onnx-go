@@ -3,7 +3,7 @@ package onnxtest
 // this file is auto-generated... DO NOT EDIT
 
 import (
-	"github.com/owulveryck/onnx-go/backend/testbackend"
+	"github.com/godshen/onnx-go/backend/testbackend"
 	"gorgonia.org/tensor"
 )
 

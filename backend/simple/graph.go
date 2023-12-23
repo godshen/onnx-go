@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gonum.org/v1/gonum/graph"
 	"gonum.org/v1/gonum/graph/encoding"
 	"gonum.org/v1/gonum/graph/simple"

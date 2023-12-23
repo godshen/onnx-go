@@ -3,8 +3,8 @@ package onnxtest
 import (
 	"testing"
 
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/gogo/protobuf/proto"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
 )
 
 func TestNewTestNonmaxsuppressionSuppressByIOU(t *testing.T) {

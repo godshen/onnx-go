@@ -1,7 +1,7 @@
 package testreport
 
 import (
-	"github.com/owulveryck/onnx-go/backend/testbackend"
+	"github.com/godshen/onnx-go/backend/testbackend"
 )
 
 // Coverage returns (100 - skipped *100 / tested)

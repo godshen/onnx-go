@@ -14,7 +14,7 @@ import (
 	"text/template"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 )
 
 var (

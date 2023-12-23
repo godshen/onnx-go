@@ -3,8 +3,8 @@ package onnx
 import (
 	"reflect"
 
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/gogo/protobuf/proto"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
 	"github.com/pkg/errors"
 	"gonum.org/v1/gonum/graph"
 	"gorgonia.org/tensor"

@@ -4,7 +4,7 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/owulveryck/onnx-go/backend/testbackend"
+	"github.com/godshen/onnx-go/backend/testbackend"
 )
 
 // WriteCoverageReport on w, the template should take []*testbackend.TestCase as pipeline

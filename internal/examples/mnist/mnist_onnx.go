@@ -1,7 +1,7 @@
 package mnist
 
 import (
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 )
 
 // Mnist model represented in an onnx compatible format

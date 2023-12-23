@@ -3,7 +3,7 @@ package main
 import (
 	"image"
 
-	"github.com/owulveryck/onnx-go/internal/x/images"
+	"github.com/godshen/onnx-go/internal/x/images"
 	"gorgonia.org/tensor"
 )
 

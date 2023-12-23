@@ -3,7 +3,7 @@ package gorgonnx
 import (
 	"errors"
 
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gorgonia.org/gorgonia"
 )
 
@@ -18,9 +18,13 @@ func newTranspose() operator {
 }
 
 // transpose to be compatible with:
-//    https://github.com/onnx/onnx/blob/master/docs/Operators.md#Transpose
+//
+//	https://github.com/onnx/onnx/blob/master/docs/Operators.md#Transpose
+//
 // and
-//    https://godoc.org/gorgonia.org/gorgonia#Transpose
+//
+//	https://godoc.org/gorgonia.org/gorgonia#Transpose
+//
 // test with go test -run=TestONNX/Transpose
 type transpose struct {
 	perm []int64

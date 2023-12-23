@@ -3,7 +3,7 @@ package testreport
 import (
 	"testing"
 
-	"github.com/owulveryck/onnx-go/backend/testbackend"
+	"github.com/godshen/onnx-go/backend/testbackend"
 )
 
 func TestCoverage(t *testing.T) {

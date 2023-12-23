@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gonum.org/v1/gonum/graph"
 	"gonum.org/v1/gonum/graph/simple"
 	"gorgonia.org/gorgonia"
@@ -14,7 +14,9 @@ import (
 )
 
 // Graph is the top structure that should be compatible with
-//    backend.ComputationGraph
+//
+//	backend.ComputationGraph
+//
 // It holds a gorgonia.ExprGraph that is populated on the first call to the
 // Run() method
 type Graph struct {

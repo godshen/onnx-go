@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend"
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/stretchr/testify/assert"
 	"gorgonia.org/tensor"
 )

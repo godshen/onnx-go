@@ -12,9 +12,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend/x/gorgonnx"
-	"github.com/owulveryck/onnx-go/internal/x/images"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend/x/gorgonnx"
+	"github.com/godshen/onnx-go/internal/x/images"
 	"gorgonia.org/tensor"
 )
 

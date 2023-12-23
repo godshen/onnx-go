@@ -1,7 +1,7 @@
 package gorgonnx
 
 import (
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 )
 
 // dropout is a void function that does nothing because we are supposed to be in test mode

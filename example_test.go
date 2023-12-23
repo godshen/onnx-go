@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend/simple"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend/simple"
 )
 
 func Example_simple() {

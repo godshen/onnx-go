@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend/x/gorgonnx"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend/x/gorgonnx"
 	"github.com/stretchr/testify/assert"
 )
 

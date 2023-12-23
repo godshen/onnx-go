@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 	"github.com/sanity-io/litter"
 )
 

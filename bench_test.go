@@ -3,9 +3,9 @@ package onnx_test
 import (
 	"testing"
 
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend/x/gorgonnx"
-	"github.com/owulveryck/onnx-go/internal/examples/mnist"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend/x/gorgonnx"
+	"github.com/godshen/onnx-go/internal/examples/mnist"
 	"gorgonia.org/tensor"
 )
 

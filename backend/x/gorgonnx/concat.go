@@ -3,7 +3,7 @@ package gorgonnx
 import (
 	"errors"
 
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gorgonia.org/gorgonia"
 )
 

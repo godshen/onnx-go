@@ -1,7 +1,7 @@
 package onnx
 
 import (
-	"github.com/owulveryck/onnx-go/internal/onnx/ir"
+	"github.com/godshen/onnx-go/internal/onnx/ir"
 )
 
 func toOperationAttributes(attrs []*ir.AttributeProto) (map[string]interface{}, error) {

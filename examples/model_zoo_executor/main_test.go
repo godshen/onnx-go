@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/owulveryck/onnx-go"
-	"github.com/owulveryck/onnx-go/backend"
-	"github.com/owulveryck/onnx-go/backend/x/gorgonnx"
+	"github.com/godshen/onnx-go"
+	"github.com/godshen/onnx-go/backend"
+	"github.com/godshen/onnx-go/backend/x/gorgonnx"
 	"github.com/stretchr/testify/assert"
 )
 

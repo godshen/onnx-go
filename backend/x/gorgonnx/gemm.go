@@ -7,7 +7,7 @@ import (
 	"hash/fnv"
 
 	"github.com/chewxy/hm"
-	"github.com/owulveryck/onnx-go"
+	"github.com/godshen/onnx-go"
 	"gonum.org/v1/gonum/blas"
 	"gonum.org/v1/gonum/blas/blas32"
 	"gonum.org/v1/gonum/blas/blas64"
@@ -255,10 +255,11 @@ func (o *gemm) String() string {
 }
 
 // Compute Y = alpha * A' * B' + beta * C, where
-//  * input tensor A has shape (M, K) or (K, M),
-//  * input tensor B has shape (K, N) or (N, K),
-//  * input tensor C is broadcastable to shape (M, N),
-//  * output tensor Y has shape (M, N).
+//   - input tensor A has shape (M, K) or (K, M),
+//   - input tensor B has shape (K, N) or (N, K),
+//   - input tensor C is broadcastable to shape (M, N),
+//   - output tensor Y has shape (M, N).
+//
 // A will be transposed before doing the computation if attribute transA is non-zero,
 // same for B and transB.
 // This operator supports unidirectional broadcasting i

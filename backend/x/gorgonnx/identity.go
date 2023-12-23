@@ -1,6 +1,6 @@
 package gorgonnx
 
-import "github.com/owulveryck/onnx-go"
+import "github.com/godshen/onnx-go"
 
 type identity struct{}
 
